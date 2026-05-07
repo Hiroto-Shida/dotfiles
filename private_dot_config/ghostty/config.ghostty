@@ -1,0 +1,25 @@
+# キーバインドで使用するaltキーのためにMacのoptionキーをaltとして機能させる
+macos-option-as-alt = true
+
+# 背景設定
+background-opacity = 0.20
+background-blur-radius = 45
+
+# font 設定
+font-size = 14
+
+# テーマ色 `ghostty +list-themes`から選択
+theme = Breadog
+
+#タイピング中にマウスカーソルを自動で隠す
+mouse-hide-while-typing = true
+
+# ウィンドウの枠やタイトルバーなどの装飾を表示する
+window-decoration = true
+window-width = 140
+window-height = 70
+
+# カーソルの色設定
+cursor-color = FF88FF
+# カーソル点滅
+cursor-style-blink = true
