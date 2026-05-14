@@ -298,10 +298,164 @@ web_client {
 // 
 // osc8_hyperlinks true
  
+themes {
+    my-custom-color-palettes {
+        // Palette
+        // Source: https://mycolor.space/?hex=%23FFF9EB&sub=1
+        // cream: #FFF9EB = 255 249 235
+        // stone-1: #DFDACC = 223 218 204
+        // sand: #E9DCBC = 233 220 188
+        // ink: #4B463B = 75 70 59
+        // deep-green: #00755E = 0 117 94
+        // aqua: #00C9AA = 0 201 170
+        // orange: #FA9053 = 250 144 83
+
+        // Bare text in status/tab bars
+        text_unselected {
+            base 75 70 59
+            background 255 249 235
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 0 117 94
+            emphasis_3 75 70 59
+        }
+        // Selected bare text
+        text_selected {
+            base 75 70 59
+            background 255 249 235
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 0 117 94
+            emphasis_3 75 70 59
+        }
+        // Active tab / active mode ribbon
+        ribbon_selected {
+            base 255 249 235
+            background 0 201 170
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 223 218 204
+            emphasis_3 75 70 59
+        }
+        // Inactive tab / inactive mode ribbon
+        ribbon_unselected {
+            base 255 249 235
+            background 75 70 59
+            emphasis_0 0 201 170
+            emphasis_1 223 218 204
+            emphasis_2 75 70 59
+            emphasis_3 75 70 59
+        }
+        // Table heading
+        table_title {
+            base 0 117 94
+            background 255 249 235
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 0 117 94
+            emphasis_3 75 70 59
+        }
+        // Selected table row/cell
+        table_cell_selected {
+            base 75 70 59
+            background 223 218 204
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 0 117 94
+            emphasis_3 75 70 59
+        }
+        // Unselected table row/cell
+        table_cell_unselected {
+            base 75 70 59
+            background 255 249 235
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 0 117 94
+            emphasis_3 75 70 59
+        }
+        // Selected list item
+        list_selected {
+            base 75 70 59
+            background 223 218 204
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 0 117 94
+            emphasis_3 75 70 59
+        }
+        // Unselected list item
+        list_unselected {
+            base 75 70 59
+            background 255 249 235
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 0 117 94
+            emphasis_3 75 70 59
+        }
+        // Frame around unfocused pane
+        frame_unselected {
+            base 233 220 188
+            background 255 249 235
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 75 70 59
+            emphasis_3 255 249 235
+        }
+        // Frame around focused pane
+        frame_selected {
+            base 0 201 170
+            background 255 249 235
+            emphasis_0 250 144 83
+            emphasis_1 0 201 170
+            emphasis_2 75 70 59
+            emphasis_3 255 249 235
+        }
+        // Frame highlight in non-normal modes
+        frame_highlight {
+            base 250 144 83
+            background 255 249 235
+            emphasis_0 75 70 59
+            emphasis_1 0 201 170
+            emphasis_2 250 144 83
+            emphasis_3 75 70 59
+        }
+        // Success exit code
+        exit_code_success {
+            base 0 117 94
+            background 255 249 235
+            emphasis_0 0 201 170
+            emphasis_1 223 218 204
+            emphasis_2 75 70 59
+            emphasis_3 75 70 59
+        }
+        // Error exit code
+        exit_code_error {
+            base 250 144 83
+            background 255 249 235
+            emphasis_0 75 70 59
+            emphasis_1 75 70 59
+            emphasis_2 75 70 59
+            emphasis_3 75 70 59
+        }
+        // Multiplayer cursor/user colors
+        multiplayer_user_colors {
+            player_1 0 117 94
+            player_2 0 201 170
+            player_3 250 144 83
+            player_4 75 70 59
+            player_5 75 70 59
+            player_6 75 70 59
+            player_7 75 70 59
+            player_8 199 194 180
+            player_9 75 70 59
+            player_10 75 70 59
+        }
+    }
+}
+
 // Choose the theme that is specified in the themes section.
 // Default: default
 // 
-theme "catppuccin-latte"
+theme "my-custom-color-palettes"
  
 // Choose the base input mode of zellij.
 // Default: normal

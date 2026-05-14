@@ -2,8 +2,8 @@
 macos-option-as-alt = true
 
 # 背景設定
-background-opacity = 0.20
-background-blur-radius = 45
+background = #FFF9EB
+background-opacity = 1.0
 
 # font 設定
 font-size = 14
