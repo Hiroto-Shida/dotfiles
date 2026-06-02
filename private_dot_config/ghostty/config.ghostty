@@ -23,3 +23,36 @@ window-height = 70
 cursor-color = FF88FF
 # カーソル点滅
 cursor-style-blink = true
+
+# 新しい ペイン (split) も現在の作業ディレクトリを引き継ぐ
+split-inherit-working-directory = true
+
+# 非アクティブ ペイン (split) を少し暗くしてフォーカス位置を見やすくする
+unfocused-split-opacity = 0.3
+# unfocused-split-fill = F4E7C8
+
+# 分割線を見やすくする
+split-divider-color = D08A00
+
+# ペイン (split) 間のフォーカス移動
+keybind = alt+h=goto_split:left
+keybind = alt+j=goto_split:down
+keybind = alt+k=goto_split:up
+keybind = alt+l=goto_split:right
+
+# ペイン (split) 作成
+keybind = alt+shift+h=new_split:left
+keybind = alt+shift+j=new_split:down
+keybind = alt+shift+k=new_split:up
+keybind = alt+shift+l=new_split:right
+
+# ペイン (split) リサイズ
+keybind = alt+ctrl+h=resize_split:left,30
+keybind = alt+ctrl+j=resize_split:down,30
+keybind = alt+ctrl+k=resize_split:up,30
+keybind = alt+ctrl+l=resize_split:right,30
+
+# 補助
+keybind = alt+enter=toggle_split_zoom
+keybind = alt+=equalize_splits
+keybind = alt+w=close_surface

@@ -10,3 +10,17 @@ WRN 2026-05-05T11:16:18.267 ?.51232    server_start:197: Failed to start server:
 WRN 2026-05-05T11:32:06.553 ?.65037    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/IXpi7P/nvim.65037.0
 WRN 2026-05-08T15:03:39.579 ?.36096    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/Uz2QSK/nvim.36096.0
 WRN 2026-05-11T11:37:24.338 ?.72714    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/PlaSQd/nvim.72714.0
+WRN 2026-05-20T16:56:20.533 ?.43454    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/stc8Jo/nvim.43454.0
+ERR 2026-05-20T16:56:22.710 ?.43454    loop_close:172: uv_loop_close() hang?
+[-AI] async    0x1053408d8
+[R--] pipe     0x105b40ab0
+[R--] pipe     0x105b42190
+[R--] pipe     0x105b48950
+WRN 2026-05-20T16:56:32.796 ?.43569    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/B6WPX9/nvim.43569.0
+ERR 2026-05-20T16:56:34.850 ?.43569    loop_close:172: uv_loop_close() hang?
+[-AI] async    0x100e548d8
+[R--] pipe     0x10188f240
+[R--] pipe     0x10188f380
+[R--] pipe     0x101891380
+WRN 2026-05-20T17:15:01.375 ?.53548    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/lxIidf/nvim.53548.0
+WRN 2026-06-02T10:11:36.061 ?.9548     server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/HlZnQ6/nvim.9548.0
