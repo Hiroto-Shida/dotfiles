@@ -5,6 +5,7 @@ return {
     opts = {
       mappings = {
         n = {
+          ["<Leader>gd"] = { "<Cmd>DiffviewOpen<CR>", desc = "Open Diffview" },
           ["<Leader>gh"] = { "<Cmd>DiffviewFileHistory %<CR>", desc = "Git file history (current file)" },
           ["<Leader>gm"] = {
             function()
