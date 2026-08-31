@@ -1,0 +1,25 @@
+2026-08-04T04:13:52.922133Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=93675
+2026-08-04T04:13:52.922189Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-04T04:13:53.121028Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-05T01:10:17.935670Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=68879
+2026-08-05T01:10:17.936324Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-05T01:10:17.985013Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-05T06:16:56.588726Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=23762
+2026-08-05T06:16:56.588901Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-05T06:16:56.639266Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-05T06:17:43.857892Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=24064
+2026-08-05T06:17:43.858827Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-05T06:17:44.058887Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-06T01:27:31.825016Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=90042
+2026-08-06T01:27:31.825385Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-06T01:27:32.073263Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-07T03:30:35.270840Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=15548
+2026-08-07T03:30:35.271013Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-07T03:30:35.363074Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-07T03:30:55.332880Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=15548
+2026-08-07T09:05:50.384384Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=73244
+2026-08-07T09:05:50.384593Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-07T09:05:50.417512Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-17T01:24:23.105553Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=12438
+2026-08-17T01:24:23.105690Z  INFO herdr::client: connecting to server path=/Users/shidahiroto/.config/herdr/herdr-client.sock
+2026-08-17T01:24:23.220348Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame

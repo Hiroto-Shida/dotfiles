@@ -1,0 +1,153 @@
+onboarding = false
+[theme]
+# Herdr のベーステーマ。terminal は Ghostty の ANSI カラーパレットを利用する
+name = "terminal"
+# ホストターミナルのライト／ダーク切り替えには追従しない
+auto_switch = false
+
+[theme.custom]
+# Ghostty のライト背景に合わせた、コントラスト重視のライト配色
+# Herdr のパネルやタブバーの背景色
+panel_bg = "#fffaf0"
+# 区切りや非常に薄いサーフェスの色
+surface_dim = "#eee8de"
+# 選択項目などの基本サーフェス色
+surface0 = "#e5ded3"
+# ホバーやアクティブ状態のサーフェス色
+surface1 = "#d8cfc2"
+# 非フォーカスペインの枠線、および控えめな補助文字の色
+overlay0 = "#b7a99a"
+# overlay0 より少し強い補助色
+overlay1 = "#6f6559"
+# Herdr UI の通常の文字色
+text = "#2f2924"
+# Herdr UI の控えめな文字色
+subtext0 = "#5f554b"
+# フォーカス枠や主要な強調表示の色
+accent = "#075985"
+# ブランチ名など、紫系のラベルに使う色
+mauve = "#7c3aed"
+# 完了・待機状態などの色
+green = "#15803d"
+# 実行中・処理中などの色
+yellow = "#a16207"
+# 要対応・ブロック状態などの色
+red = "#b91c1c"
+# 未確認・通知などの青系の色
+blue = "#1d4ed8"
+# 通知やマーカーに使う青緑系の色
+teal = "#0f766e"
+# 警告・中断状態などのオレンジ系の色
+peach = "#c2410c"
+
+[terminal]
+# 新しいペインやタブを作るとき、作成元の作業ディレクトリを引き継ぐ
+new_cwd = "follow"
+
+[ui]
+# ペインの枠線を表示する
+pane_borders = true
+# ペイン同士の間に1セル分の余白を設ける
+pane_gaps = true
+# フォーカス枠、タブ、ナビゲーションなどの共通アクセント色
+accent = "#075985"
+
+[ui.toast]
+# Herdrの外側のターミナル（Ghostty）へデスクトップ通知を依頼する
+delivery = "terminal"
+# 完了・要対応状態が1秒継続したら通知する
+delay_seconds = 1
+
+[keys]
+# プレフィックスキー。Ctrl+B の後に各操作キーを押す
+prefix = "ctrl+b"
+
+# Space切り替え画面で j/k を使う
+navigate_workspace_up = "k"
+navigate_workspace_down = "j"
+
+# 左のペインへフォーカスを移動する
+focus_pane_left = ["prefix+h", "alt+h"]
+# 下のペインへフォーカスを移動する
+focus_pane_down = ["prefix+j", "alt+j"]
+# 上のペインへフォーカスを移動する
+focus_pane_up = ["prefix+k", "alt+k"]
+# 右のペインへフォーカスを移動する
+focus_pane_right = ["prefix+l", "alt+l"]
+
+# 左のペインと入れ替える
+swap_pane_left = "prefix+shift+h"
+# 下のペインと入れ替える
+swap_pane_down = "prefix+shift+j"
+# 上のペインと入れ替える
+swap_pane_up = "prefix+shift+k"
+# 右のペインと入れ替える
+swap_pane_right = "prefix+shift+l"
+
+# ペインを左右に並べて分割する
+split_vertical = ["prefix+v", "alt+shift+l"]
+# ペインを上下に積んで分割する
+split_horizontal = ["prefix+minus", "alt+shift+j"]
+
+# フォーカス中のペインをズーム表示する
+zoom = ["prefix+z", "alt+enter"]
+# フォーカス中のペインを閉じる
+close_pane = ["prefix+x", "alt+w"]
+
+# 新しいタブを作成する
+new_tab = ["prefix+c", "alt+t"]
+# 次のタブへ移動する。Ctrl+Alt+] は Alt+右矢印が届かない場合の代替
+next_tab = ["prefix+n", "alt+right", "ctrl+alt+]"]
+# 前のタブへ移動する。Ctrl+Alt+[ は Alt+左矢印が届かない場合の代替
+previous_tab = ["prefix+p", "alt+left", "ctrl+alt+["]
+# 現在のタブを閉じる
+close_tab = ["prefix+shift+x", "alt+shift+w"]
+
+# 左・上分割: Herdr の右・下分割後に新しいペインを入れ替える
+[[keys.command]]
+# 右分割してから新しいペインを左へ入れ替える
+key = "alt+shift+h"
+# Herdr 管理のバックグラウンドシェルとして実行する
+type = "shell"
+# 現在のペインを右分割し、新しいペインを左へ入れ替える
+command = "\"$HERDR_BIN_PATH\" pane split --current --direction right --focus && \"$HERDR_BIN_PATH\" pane swap --direction left --current"
+
+[[keys.command]]
+# 下分割してから新しいペインを上へ入れ替える
+key = "alt+shift+k"
+# Herdr 管理のバックグラウンドシェルとして実行する
+type = "shell"
+# 現在のペインを下分割し、新しいペインを上へ入れ替える
+command = "\"$HERDR_BIN_PATH\" pane split --current --direction down --focus && \"$HERDR_BIN_PATH\" pane swap --direction up --current"
+
+[[keys.command]]
+# ペインの幅を左方向へ5%変更する
+key = "alt+ctrl+h"
+# Herdr 管理のバックグラウンドシェルとして実行する
+type = "shell"
+# フォーカス中のペインを左方向へ5%リサイズする
+command = "\"$HERDR_BIN_PATH\" pane resize --direction left --amount 0.05 --pane \"$HERDR_ACTIVE_PANE_ID\""
+
+[[keys.command]]
+# ペインの高さを下方向へ5%変更する
+key = "alt+ctrl+j"
+# Herdr 管理のバックグラウンドシェルとして実行する
+type = "shell"
+# フォーカス中のペインを下方向へ5%リサイズする
+command = "\"$HERDR_BIN_PATH\" pane resize --direction down --amount 0.05 --pane \"$HERDR_ACTIVE_PANE_ID\""
+
+[[keys.command]]
+# ペインの高さを上方向へ5%変更する
+key = "alt+ctrl+k"
+# Herdr 管理のバックグラウンドシェルとして実行する
+type = "shell"
+# フォーカス中のペインを上方向へ5%リサイズする
+command = "\"$HERDR_BIN_PATH\" pane resize --direction up --amount 0.05 --pane \"$HERDR_ACTIVE_PANE_ID\""
+
+[[keys.command]]
+# ペインの幅を右方向へ5%変更する
+key = "alt+ctrl+l"
+# Herdr 管理のバックグラウンドシェルとして実行する
+type = "shell"
+# フォーカス中のペインを右方向へ5%リサイズする
+command = "\"$HERDR_BIN_PATH\" pane resize --direction right --amount 0.05 --pane \"$HERDR_ACTIVE_PANE_ID\""

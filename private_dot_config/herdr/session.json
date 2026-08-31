@@ -1,0 +1,244 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w1",
+      "custom_name": null,
+      "identity_cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-oneid-frontend",
+      "worktree_space": {
+        "key": "/Users/shidahiroto/projects/japanpost/japanpost-all/.git/modules/japanpost-payment-frontend",
+        "label": "japanpost-payment-frontend",
+        "repo_root": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-payment-frontend",
+        "checkout_path": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-payment-frontend",
+        "is_linked_worktree": false
+      },
+      "public_pane_numbers": {
+        "206": 146,
+        "207": 147,
+        "199": 145,
+        "173": 126,
+        "174": 127
+      },
+      "next_public_pane_number": 148,
+      "public_tab_numbers": [
+        24,
+        29
+      ],
+      "next_public_tab_number": 30,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.661236,
+              "first": {
+                "Pane": 173
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.70000005,
+                  "first": {
+                    "Pane": 174
+                  },
+                  "second": {
+                    "Pane": 199
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "199": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-oneid-frontend"
+            },
+            "173": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-oneid-frontend"
+            },
+            "174": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-oneid-frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 174,
+          "root_pane": 173
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 207
+              },
+              "second": {
+                "Pane": 206
+              }
+            }
+          },
+          "panes": {
+            "206": {
+              "cwd": "/Users/shidahiroto/.config/nvim"
+            },
+            "207": {
+              "cwd": "/Users/shidahiroto/.config/nvim"
+            }
+          },
+          "zoomed": false,
+          "focused": 207,
+          "root_pane": 206
+        }
+      ],
+      "active_tab": 1
+    },
+    {
+      "id": "wQ",
+      "custom_name": "japanpost: add-pat-management-doc",
+      "identity_cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/add-pat-management-doc",
+      "worktree_space": {
+        "key": "/Users/shidahiroto/projects/japanpost/japanpost-all/.git/modules/japanpost-payment-frontend",
+        "label": "japanpost-payment-frontend",
+        "repo_root": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-payment-frontend",
+        "checkout_path": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/add-pat-management-doc",
+        "is_linked_worktree": true
+      },
+      "public_pane_numbers": {
+        "191": 1,
+        "192": 2
+      },
+      "next_public_pane_number": 9,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 4,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.6,
+              "first": {
+                "Pane": 192
+              },
+              "second": {
+                "Pane": 191
+              }
+            }
+          },
+          "panes": {
+            "191": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/add-pat-management-doc"
+            },
+            "192": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/add-pat-management-doc"
+            }
+          },
+          "zoomed": false,
+          "focused": 191,
+          "root_pane": 191
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "wR",
+      "custom_name": "japanpost: fix-payment-icon-visibility",
+      "identity_cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/fix-payment-icon-visibility",
+      "worktree_space": {
+        "key": "/Users/shidahiroto/projects/japanpost/japanpost-all/.git/modules/japanpost-payment-frontend",
+        "label": "japanpost-payment-frontend",
+        "repo_root": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-payment-frontend",
+        "checkout_path": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/fix-payment-icon-visibility",
+        "is_linked_worktree": true
+      },
+      "public_pane_numbers": {
+        "202": 2,
+        "205": 5,
+        "201": 1,
+        "203": 3,
+        "204": 4
+      },
+      "next_public_pane_number": 6,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.66329116,
+              "first": {
+                "Pane": 202
+              },
+              "second": {
+                "Split": {
+                  "direction": "Vertical",
+                  "ratio": 0.6,
+                  "first": {
+                    "Pane": 201
+                  },
+                  "second": {
+                    "Pane": 203
+                  }
+                }
+              }
+            }
+          },
+          "panes": {
+            "202": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/fix-payment-icon-visibility"
+            },
+            "203": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/fix-payment-icon-visibility"
+            },
+            "201": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/.wt/japanpost-payment-frontend/fix-payment-icon-visibility"
+            }
+          },
+          "zoomed": false,
+          "focused": 201,
+          "root_pane": 201
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5443038,
+              "first": {
+                "Pane": 204
+              },
+              "second": {
+                "Pane": 205
+              }
+            }
+          },
+          "panes": {
+            "204": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-payment-frontend"
+            },
+            "205": {
+              "cwd": "/Users/shidahiroto/projects/japanpost/japanpost-all/japanpost-payment-frontend"
+            }
+          },
+          "zoomed": false,
+          "focused": 205,
+          "root_pane": 204
+        }
+      ],
+      "active_tab": 1
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": 24,
+  "sidebar_section_split": 0.5,
+  "collapsed_space_keys": []
+}
