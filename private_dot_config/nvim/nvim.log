@@ -35,3 +35,7 @@ WRN 2026-08-20T12:48:12.443 ?.61971    server_start:197: Failed to start server:
 WRN 2026-08-20T12:48:21.541 ?.62006    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/GmDYIe/nvim.62006.0
 WRN 2026-08-20T12:48:35.448 ?.62084    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/R6mqJ4/nvim.62084.0
 WRN 2026-08-20T12:49:06.417 ?.62191    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/N6f3sL/nvim.62191.0
+WRN 2026-08-31T16:35:25.303 ?.35819    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/FM40uS/nvim.35819.0
+WRN 2026-08-31T16:35:25.318 ?.35818    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/E6X1F1/nvim.35818.0
+WRN 2026-08-31T18:36:40.274 ?.70006    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/qlp29N/nvim.70006.0
+WRN 2026-08-31T18:36:47.976 ?.70036    server_start:197: Failed to start server: operation not permitted: /var/folders/16/gwbjkw6n0vq28fns8ftvdfg80000gq/T/nvim.shidahiroto/cy9Voo/nvim.70036.0
