@@ -91,8 +91,8 @@ split_horizontal = ["prefix+minus", "alt+shift+j"]
 
 # フォーカス中のペインをズーム表示する
 zoom = ["prefix+z", "alt+enter"]
-# フォーカス中のペインを閉じる
-close_pane = ["prefix+x", "alt+w"]
+# フォーカス中のペインを閉じる。Alt+W は下の安全確認付きコマンドに委譲
+close_pane = "prefix+x"
 
 # 新しいタブを作成する
 new_tab = ["prefix+c", "alt+t"]
@@ -151,3 +151,10 @@ key = "alt+ctrl+l"
 type = "shell"
 # フォーカス中のペインを右方向へ5%リサイズする
 command = "\"$HERDR_BIN_PATH\" pane resize --direction right --amount 0.05 --pane \"$HERDR_ACTIVE_PANE_ID\""
+
+# シェル待機中は即時クローズし、Codex・nvim などの実行中プロセスがあるときだけ確認する
+[[keys.command]]
+key = "alt+w"
+type = "shell"
+description = "安全確認付きでペインを閉じる"
+command = "\"/Users/shidahiroto/.config/herdr/close-pane-safe.sh\""

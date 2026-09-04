@@ -1,0 +1,52 @@
+# Ghostty (Breadog) + Herdr + Neovim (dayfox) に合わせた Hunk テーマ
+theme = "breadog"
+watch = true
+agent_notes = true
+
+[themes.breadog]
+base = "github-light-default"
+label = "Breadog / Dayfox"
+
+# Ghostty の背景・前景色
+background = "#fff9eb"
+text = "#362c24"
+
+# Herdr のサーフェス／補助色
+panel = "#fffaf0"
+panelAlt = "#e5ded3"
+border = "#b7a99a"
+accent = "#075985"
+accentMuted = "#0f766e"
+muted = "#6f6559"
+
+# Neovim (dayfox) の Diff* 配色と Herdr の状態色
+addedBg = "#cfead1"
+removedBg = "#f5d6dc"
+movedAddedBg = "#cfe5fb"
+movedRemovedBg = "#f5efe6"
+contextBg = "#fff9eb"
+addedContentBg = "#cfead1"
+removedContentBg = "#f5d6dc"
+contextContentBg = "#fff9eb"
+addedSignColor = "#15803d"
+removedSignColor = "#b91c1c"
+lineNumberBg = "#e5ded3"
+lineNumberFg = "#6f6559"
+selectedHunk = "#cfe5fb"
+
+# Herdr のバッジ／ファイル状態色
+badgeAdded = "#15803d"
+badgeRemoved = "#b91c1c"
+badgeNeutral = "#6f6559"
+fileNew = "#15803d"
+fileDeleted = "#b91c1c"
+fileRenamed = "#7c3aed"
+fileModified = "#a16207"
+fileUntracked = "#1d4ed8"
+
+# Herdr の通知配色
+noteBorder = "#075985"
+noteBackground = "#e5ded3"
+noteTitleBackground = "#075985"
+# コメント欄の Save / Cancel ボタンにも使われるため、背景に埋もれない濃色にする
+noteTitleText = "#362c24"
