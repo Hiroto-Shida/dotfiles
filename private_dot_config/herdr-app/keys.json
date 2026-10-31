@@ -57,12 +57,12 @@
     "alt-l": "pane.go:right",
     "alt-shift-l": "pane.split:right",
     "alt-shift-j": "pane.split:down",
-    "alt-shift-h": "mod.open:split-left",
-    "alt-shift-k": "mod.open:split-up",
-    "alt-ctrl-h": "mod.open:resize-left",
-    "alt-ctrl-j": "mod.open:resize-down",
-    "alt-ctrl-k": "mod.open:resize-up",
-    "alt-ctrl-l": "mod.open:resize-right"
+    "alt-shift-h": "pane-ops.split-left",
+    "alt-shift-k": "pane-ops.split-up",
+    "alt-ctrl-h": "pane-ops.resize-left",
+    "alt-ctrl-j": "pane-ops.resize-down",
+    "alt-ctrl-k": "pane-ops.resize-up",
+    "alt-ctrl-l": "pane-ops.resize-right"
   },
   "terminal": {
     "cmd-c": "terminal.copy",
