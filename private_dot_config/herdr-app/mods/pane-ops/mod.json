@@ -1,1 +1,1 @@
-{ "place": "none", "overlay": { "kind": "window", "key": "pane-ops", "keep": true, "width": 1, "height": 1, "frame": "none", "at": { "x": 0, "y": 0 } } }
+{ "place": "none", "overlay": { "kind": "window", "key": "pane-ops", "keep": true, "width": 2, "height": 2, "frame": "none", "at": { "x": 0, "y": 0 } } }
